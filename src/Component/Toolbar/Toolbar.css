@@ -3,7 +3,7 @@
     margin: 0;
     height: 50px;
     z-index: 0;
-    background-color: rgb(211, 183, 27);
+    background-color: black;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -21,3 +21,4 @@
     position: relative;
     left: 20%;
 }
+

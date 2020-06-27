@@ -1,13 +1,23 @@
 .sidebar{
     width: 20%;
-    position: relative;
+    position: absolute;
     left: 0;
-    box-shadow: 0 2px 2px 0 #cccc;
-    height: 100%;
-    top: 0;
-    display: flex;
+    box-shadow:red;
+    /* top: 5%; */
+    /* display: flex; */
+    height:94.9%;
+    background-color: red;
+    margin: 0;
+    z-index: -1;
+
+
+
     
 }
 .category{
     margin: 20%;
+    left:-10%;
+    position: relative;
+    
+
 }

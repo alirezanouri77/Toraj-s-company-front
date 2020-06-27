@@ -1,11 +1,13 @@
 import React, { Fragment } from 'react'
 import './sidebar.css'
 
+
 const Sidebar = (props) => {
+
     return(
         <Fragment>
-            <div className='sidebar'>
-                <ul className=''>
+            <div >
+                <ul className='sidebar'>
                     <li className='category'>Saffron Grinder</li>
                     <li className='category'>Mortars</li>
                     <li className='category'>Jars</li>
