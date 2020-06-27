@@ -1,0 +1,23 @@
+.toolbar{
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    z-index: 0;
+    background-color: rgb(211, 183, 27);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+.navigation{
+    margin : 0px 40px ;
+}
+.Logo{
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+.cart{
+    position: relative;
+    left: 20%;
+}
