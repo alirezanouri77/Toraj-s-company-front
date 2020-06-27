@@ -3,7 +3,7 @@
     margin: 0;
     height: 50px;
     z-index: 0;
-    background-color: black;
+    background-color: rgb(224, 195, 26);
     align-items: center;
     justify-content: center;
     position: relative;
@@ -11,14 +11,17 @@
 }
 .navigation{
     margin : 0px 40px ;
+    color: white;
 }
 .Logo{
-    margin: auto;
-    width: 40px;
-    height: 40px;
+    margin:  0 ;
+    width: 60px;
+    height: 50px;
 }
 .cart{
     position: relative;
     left: 20%;
+    width: 60px;
+    height: 50px;
 }
 

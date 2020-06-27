@@ -3,6 +3,7 @@ import {BrowserRouter,Switch, Route} from "react-router-dom";
 import './App.css';
 import Toolbar from './Component/Toolbar/Toolbar';
 import Sidebar from './Component/Sidebar/sidebar';
+import Products from './Component/Products/Products';
 
 function App() {
   return (
@@ -10,8 +11,7 @@ function App() {
     <div className="App">
      <Toolbar/>
      <Switch>
-       <Route exact path='/products' component={Sidebar}/>
-       
+       <Route  path='/products' component={Products}/>
      </Switch>
     </div>
     </BrowserRouter>

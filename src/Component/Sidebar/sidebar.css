@@ -1,23 +1,19 @@
 .sidebar{
-    width: 20%;
-    position: absolute;
-    left: 0;
-    box-shadow:red;
-    /* top: 5%; */
-    /* display: flex; */
-    height:94.9%;
-    background-color: red;
-    margin: 0;
-    z-index: -1;
+     width: 22%;
+     background-color: green;
+     height: 100%;
+     position: fixed;
+     overflow: auto;
+     padding: 5px;
 
 
-
-    
 }
 .category{
-    margin: 20%;
-    left:-10%;
+    /* margin: 20%;
+    left:-23%;
     position: relative;
-    
-
+    color: black;
+    justify-content: left;
+    align-items: left;
+    display: flex; */
 }

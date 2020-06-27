@@ -1,0 +1,20 @@
+.cardsforproductrow{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 0 4px; */
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    margin: 30px;
+
+}
+
+
+
+.productss{
+    vertical-align:inherit;
+    width: 300px;
+    box-shadow: 0px 3px #cccccc;
+    margin: 8px 12px;
+    
+}
