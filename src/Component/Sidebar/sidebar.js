@@ -18,29 +18,24 @@ const Sidebar = (props) => {
         //     </div>
         // </Fragment>
         <aside className="sidebar">
-         <header>
-        Menu
-      </header>
     <nav className="sidebar-nav">
- 
-      <ul>
+      <ul style={{margin:'30px'}}>
         <li>
-          <a href="#"><i className="ion-bag"></i> <span>product</span></a>
+          <a href="products/saffrongrinder"><i className="ion-bag"></i> <span>Saffron Grinder</span></a>
         </li>
         <li>
-          <a href="#"><i className="ion-ios-settings"></i> <span className="">Controls</span></a>
+          <a href="products/mortars"><i className="ion-ios-settings"></i> <span className="">Mortars</span></a>
           
         </li>
         <li>
-          <a href="#"><i className="ion-ios-briefcase-outline"></i> <span className="">Folio</span></a>
+          <a href="products/jars"><i className="ion-ios-briefcase-outline"></i> <span className="">Jars</span></a>
+        </li>
+        <li>
+          <a href="products/dates"><i className="ion-ios-analytics-outline"></i> <span className="">Dates</span></a>
           
         </li>
         <li>
-          <a href="#"><i className="ion-ios-analytics-outline"></i> <span className="">Graphicals</span></a>
-          
-        </li>
-        <li>
-          <a href="#"><i className="ion-ios-paper-outline"></i> <span className="">Papers</span></a>
+          <a href="products/wallnut"><i className="ion-ios-paper-outline"></i> <span className="">Wallnut</span></a>
          
         </li>
         

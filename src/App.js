@@ -4,6 +4,7 @@ import './App.css';
 import Toolbar from './Component/Toolbar/Toolbar';
 import Sidebar from './Component/Sidebar/sidebar';
 import Products from './Component/Products/Products';
+import ContactData from './Component/contactdata/contactdata';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
     <div className="App">
      <Toolbar/>
      <Switch>
-       <Route  path='/products' component={Products}/>
+       <Route path='/products' component={Products}/>
+       <Route path='/order' component={ContactData}/>
      </Switch>
     </div>
     </BrowserRouter>

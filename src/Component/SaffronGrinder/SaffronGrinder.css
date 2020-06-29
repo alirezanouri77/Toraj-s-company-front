@@ -14,7 +14,9 @@
 .productss{
     vertical-align:inherit;
     width: 300px;
-    box-shadow: 0px 3px #cccccc;
-    margin: 8px 12px;
+    /* box-shadow: 1px 2px #cccccc; */
+    margin: 10px 40px 40px 40px;
+    background-color: #f4f4f4;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     
 }

@@ -14,19 +14,13 @@ const Saffron = () => {
       
       <div className='cardsforproductrow'>
         {/* <div className='cardsforproductcol'> */}
-        <Cards  src={Square} />
-        <Cards Model="Dimond" src={Dimond} />
-        <Cards Model="Simple Pearl" src={SimplePearl} />
+        <Cards code='1111'Model='Squared' src={Square} />
+        <Cards code='1116'Model="Dimond" src={Dimond} />
+        <Cards code='1115'Model="Simple Pearl" src={SimplePearl} />
         {/* </div>
        <div className="cardsforproductcol"> */}
-       <Cards Model="Pearl Pattern" src={PearlPattern} />
-        <Cards Model="Hexagonal" src={Hexagonal} />
-        <Cards Model="Hexagonal" src={Hexagonal} />
-        <Cards Model="Hexagonal" src={Hexagonal} />
-        <Cards Model="Hexagonal" src={Hexagonal} />
-        <Cards Model="Hexagonal" src={Hexagonal} />
-        <Cards Model="Hexagonal" src={Hexagonal} />
-
+       <Cards code='1114'Model="Pearl Pattern" src={PearlPattern} />
+        <Cards code='1112'Model="Hexagonal" src={Hexagonal} />
        {/* </div> */}
         
       </div>
