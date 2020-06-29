@@ -7,7 +7,7 @@ import {Backdrop} from '@material-ui/core'
 
 
 
-const Toolbar = () => {
+const Toolbar = (props) => {
     const [hover,setHover]=useState(false)
 
     var triggerHover=()=>{
@@ -17,7 +17,6 @@ const Toolbar = () => {
         setHover(!hover)
     }
   
-    console.log(hover)
  return(
      <Fragment >
          <Backdrop  style={{opacity:'0'}} open={hover} onMouseOver={triggerHover2}/>
@@ -28,7 +27,7 @@ const Toolbar = () => {
                  <NavLink className='navigation' to="contactus">Contact Us</NavLink>
                  {/* <NavLink className='navigation' to="products">Products</NavLink> */}
                     <div   className="btn-group">
-                    <NavLink  style={{color:'white' , margin:'0 40px'}}to="products" onMouseOver={triggerHover} role="button"   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <NavLink  style={{color:'white' , margin:'0 40px'}}to="products" onMouseOver={props.isit ? triggerHover:null} role="button"   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Products
                     </NavLink>
                     {hover ?       
